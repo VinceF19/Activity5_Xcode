@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="University Seal White" translatesAutoresizingMaskIntoConstraints="NO" id="7cI-rT-Ssq">
+                                <rect key="frame" x="80" y="102" width="233" height="202"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="S1e-Sk-viG">
+                                <rect key="frame" x="66" y="358" width="260.66666666666669" height="46"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ATENEO DE DAVAO UNIVERSITY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3g-vV-QOd">
+                                        <rect key="frame" x="0.0" y="0.0" width="260.66666666666669" height="19"/>
+                                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                        <color key="textColor" systemColor="tableBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Information System" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6L-PS-Ac6">
+                                        <rect key="frame" x="34.333333333333314" y="27" width="192" height="19"/>
+                                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemYellowColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <constraints>
+                            <constraint firstItem="7cI-rT-Ssq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="294-rs-V21"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7cI-rT-Ssq" secondAttribute="trailing" constant="80" id="7jf-Ma-9up"/>
+                            <constraint firstItem="S1e-Sk-viG" firstAttribute="top" secondItem="7cI-rT-Ssq" secondAttribute="bottom" constant="54" id="eiA-fL-ZW6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S1e-Sk-viG" secondAttribute="trailing" constant="66.333333333333314" id="f4R-1z-Kdm"/>
+                            <constraint firstItem="7cI-rT-Ssq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="f7j-sw-qVt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7cI-rT-Ssq" secondAttribute="bottom" constant="514" id="gfg-Dx-mmN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="University Seal White" width="4621" height="4604"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
